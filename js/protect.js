@@ -1,9 +1,8 @@
-var x;
-var y="hello";
-x=prompt('Password?',' ');
-if (x==y)
+var x = prompt('Password?');
+var y = "hello";
+if (x == y) {
     alert('OK');
-else {
+} else {
     alert('Please try again.');
     window.location="./";
 }
